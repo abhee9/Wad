@@ -1,0 +1,129 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: #F4ECE1;
+    font-family: Century Gothic;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav1 {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+.nav2 a{
+    font-size: 25px;
+    text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.5s ease;
+    display: inline-block;
+}
+
+.nav2 a:hover {
+    background-color: black;
+    color: #f5deb3;
+}
+
+.nav3 input {
+    height: 25px; 
+    width: 200px; 
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #F4ECE1;
+}
+
+.nav3 input:hover {
+    background-color: white;
+    color: wheat;
+}
+
+.body {
+    padding-top: 20px;
+    display: flex;
+    padding-left: 80px;
+}
+
+.body .b1 {
+    display: flex;
+    padding-top: 50px;
+}
+
+.body .b11 {
+    font-size: 70px;
+    font-weight: 700 ;
+    color: rgb(249, 115, 5);
+}
+
+.body .b12 {
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-weight: 800;
+}
+
+.body .b2 {
+    font-size: 20px;
+    color: rgb(78, 67, 67);
+    padding-top: 25px ;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.btn {
+
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid ;
+
+}
+
+.btn:hover {
+    color: wheat;
+    background-color: black;
+}
+
+.star {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.st-text {
+    padding-top: 20px;
+    font-size: 22px; 
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.txt {
+    padding-top: 20px;
+    font-size: 20px; 
+    padding-left: 15px;
+    color: rgb(78, 67, 67);
+}
+
+.img {
+    padding-left: 100px;
+    height: 650px;
+    width: 650px;
+    padding-right: 100px;
+    
+}
